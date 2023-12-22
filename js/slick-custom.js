@@ -98,7 +98,8 @@
               autoplaySpeed: 6000,
               arrows: true,
               appendArrows: $(this),
-             
+              prevArrow:'<button class="arrow-slick2 prev-slick2"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
+              nextArrow:'<button class="arrow-slick2 next-slick2"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',  
               responsive: [
                 {
                   breakpoint: 1200,
